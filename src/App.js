@@ -1,13 +1,17 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
-import { DiAtom } from "react-icons/di";
+// import { DiAtom } from "react-icons/di";
+// import Hello from "./01/Hello";
+import MyClock from "./02/MyClock";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="bg-slate-500">
+        <MyClock />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        {/* <Hello /> */}
+        {/* <p className="bg-slate-500">
           Edit <code>src/App.js</code> and save to reload.
           <DiAtom />
         </p>
@@ -18,7 +22,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
