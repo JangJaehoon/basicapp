@@ -10,7 +10,7 @@ export default function MyDiv2(probs) {
     >
       <div className="w-full h-10 flex justify-start items-center">myDiv2</div>
       {`${probs.dn1} > ${probs.dn2} > ${probs.dn3}`}
-      <MyDiv3 />
+      <MyDiv3 d1={probs.dn1} d2={probs.dn2} d3={probs.dn3} />
     </div>
   );
 }

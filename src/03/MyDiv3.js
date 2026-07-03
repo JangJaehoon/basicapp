@@ -1,4 +1,4 @@
-export default function MyDiv3() {
+export default function MyDiv3(probs) {
   return (
     <div
       className="flex flex-col p-5 m-10
@@ -7,6 +7,9 @@ export default function MyDiv3() {
                         text-white"
     >
       MyDiv3
+      <div className="w-full h-10 flex justify-center items-center">
+        {`${probs.d1} > ${probs.d2} > ${probs.d3}`}
+      </div>
     </div>
   );
 }
